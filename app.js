@@ -1,6 +1,6 @@
-import '/App/Components/formTask/formTask.js';
-import '/App/Components/TaskList/tasksList.js';
-import {crearTarea} from '/Apis/tasks-api.js';
+import './App/Components/formTask/formTask.js';
+import './App/Components/TaskList/tasksList.js';
+import { crearTarea } from './Apis/tasks-api.js';
 
 
 
