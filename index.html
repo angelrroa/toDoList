@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- La siguiente línea de código. Permite vincular. Boostrap -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script defer src="js/bootstrap.bundle.js"></script>
+    <script type="module" src="app.js" defer></script>
+
+    <script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-firestore-compat.js"></script>
+    <script type="module" src="Apis/tasks-api.js" defer></script>
+    <title>To Do List</title>
+</head>
+
+<body>
+    <div id="alert" class="alert alert-success d-none" role="alert">
+        Tarea creada con éxito.
+      </div>
+    <div class="container">
+        <main class="formulario">
+            <form-task></form-task>
+        </main>
+
+        <div class="tasks-list">
+            
+            <task-list></task-list>
+        </div>
+</body>
+
+</html>

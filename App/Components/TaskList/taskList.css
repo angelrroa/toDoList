@@ -1,0 +1,41 @@
+.tasks-list {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border: black 1px solid;
+    margin-top: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.task-item {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.task-column {
+    padding: 5px;
+}
+
+.task-input {
+    width: 100%;
+    margin-right: 10px;
+}
+
+.task-column input[type="checkbox"] {
+    margin-right: 5px;
+}
+.titulos{
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    gap: 10px;
+}
+input[type="checkbox"] {
+    transform: scale(2);
+}
+
